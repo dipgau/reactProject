@@ -1,0 +1,158 @@
+body {
+  overflow-x: hidden;
+}
+.home-main {
+  background-image: url("/images/cloud.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 38em;
+}
+.home-cont0 {
+  background-color: rgba(5, 4, 2, 0.4);
+  margin-top: 8em;
+  margin-left: 30em;
+  border-style: solid;
+  width: 40%;
+  color: white;
+
+  height: 25em;
+}
+.home-cont0 h2 {
+  margin-top: 1em;
+  text-decoration: underline;
+}
+.home-main ul {
+  list-style-type: none;
+}
+
+.home-main li {
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px;
+}
+.home-main li a {
+  color: white;
+}
+
+.para0 {
+  color: white;
+  font-size: 1.4em;
+}
+
+.home-row1 {
+  text-align: justify;
+  background-color: rgb(205, 43, 226);
+  color: white;
+}
+
+.row1-col1 {
+  text-align: justify;
+  color: white;
+  background-color: rgb(205, 43, 226);
+}
+.row1-col1-div {
+  margin-left: 10em;
+}
+.row1-col1-head {
+  color: white;
+  font-size: 30px;
+  margin-top: 2em;
+}
+
+.para1 {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.home-row2 {
+  padding: 20px;
+  background-color: lightgray;
+}
+
+.row2-col2 {
+  text-align: justify;
+
+  background-color: white;
+}
+.para2 {
+  margin-top: 20px;
+}
+
+.row2-col2-head {
+  border: 1px solid;
+  display: inline-block;
+
+  padding: 5px;
+  margin-top: 2em;
+  background-color: rgb(205, 43, 226);
+  color: white;
+}
+
+.row3-col2-head {
+  display: inline-block;
+  padding: 5px;
+  margin-top: 1em;
+  color: rgb(205, 43, 226);
+  background-color: white;
+}
+.row3-col2-div {
+  margin-right: 10em;
+  text-align: justify;
+}
+.row4-col1-div {
+  margin-left: 10em;
+  text-align: justify;
+}
+.row4-col1-head {
+  display: inline-block;
+  margin-left: 9em;
+  text-align: justify;
+  padding: 5px;
+  margin-top: 1em;
+  color: rgb(205, 43, 226);
+  background-color: white;
+}
+.home-row34 {
+  padding: 20px;
+  background-color: rgb(205, 43, 226);
+}
+.home-row34 p {
+  color: white;
+  margin-top: 10px;
+}
+
+.home-row5 {
+  color: darkgrey;
+}
+.home-cont5 {
+  margin-left: 12em;
+  margin-right: 12em;
+}
+
+.work {
+  float: right;
+  width: 20em;
+  height: 20em;
+}
+.work1 {
+  width: 20em;
+  height: 20em;
+}
+.row3-work {
+  float: right;
+  width: 15em;
+  height: 14em;
+}
+.row4-work {
+  float: left;
+  width: 15em;
+  height: 14em;
+}
+@media only screen and (max-width: 600px) {
+  .home-cont0 {
+    margin-left: 0;
+    height: auto;
+    width: auto;
+  }
+}

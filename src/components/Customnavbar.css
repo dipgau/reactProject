@@ -1,0 +1,14 @@
+.navbar {
+  background-color: rgb(205, 43, 226);
+}
+.navbar li {
+  padding: 5px;
+  list-style-type: none;
+}
+
+.navbar li a {
+  color: white;
+}
+.logo a {
+  color: white;
+}
